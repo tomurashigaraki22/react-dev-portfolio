@@ -1,30 +1,30 @@
 //projects start
 const projects = [
   {
-    name: "Booking.com clone",
+    name: "Trollz Store",
     description:
-      "A clone of booking.com which is built using Nextjs 14 and Oxylabs webscraping API to scrape data from the official booking.com website and show as results of our queries",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/booking.com-clone-nextjs14",
-    img: "/bookingcom.jpg",
-    preview: "https://bookingcomnext14.netlify.app/",
+      "An ecommerce store made using React and Tailwind for the frontend and Flask for the backend",
+    stack: ["React", "Tailwind", "Flask", "Sqlite"],
+    sourceCode: "https://github.com/randilt/trollz",
+    img: "/d.jpeg",
+    preview: "https://trollzstore.com.ng/#/signup",
   },
   {
-    name: "Cyberscourge Hub",
+    name: "Animiwa",
     description:
-      "An open source ultra fast markdown blog app built using Hugo and deployed on Netlify. The theme of this app is 100% custom built by me. The theme is also open source and can be found on my github profile. And I regularly write articles on this blog.",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/cyberscourge-hub",
-    img: "/cyberscourge.jpg",
-    preview: "https://rtharusha.tech",
+      "An anime streaming app that takes data from an old laptop that I converted into a server, this project is undergoing maintenance right now",
+    stack: ["React Native", "NodeJS", "Express", "MongoDB"],
+    sourceCode: "https://github.com/tomurashigaraki22/DrawApp",
+    img: "/n.jpg",
+    preview: "https://github.com/tomurashigaraki22/DrawApp",
   },
   {
-    name: "Jotion (Notion Clone)",
+    name: "Discreet Net",
     description:
-      "A clone of the popular note taking app Notion. This app is built using Nextjs 13 and Tailwind CSS. It uses clerk for authentication and convex for its real time database. The project is not yet complete ",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/notion-clone",
-    img: "/jotion.jpg",
+      "A social media with an anonymous feel, it's an ongoing project that I'm planning on giving a Discord and Twitter vibe together to get the anonymous feel.",
+    stack: ["React", "React Native", "Flask", "SQLite", "Tailwind"],
+    sourceCode: "https://github.com/tomurashigaraki22/DiscreetNet",
+    img: "/a.avif",
     preview: "#",
   },
 ];

@@ -32,9 +32,9 @@ const Hero = (props) => {
         <Typewriter
           options={{
             strings: [
-              "An Aspiring Developer",
-              "An AI & ML Enthusiast",
-              "An IoT Enthusiast",
+              "A Full-Stack Developer",
+              "A Web3 Developer",
+              "A Mobile Developer",
               "A Student",
             ],
             autoStart: true,
@@ -66,7 +66,7 @@ const Hero = (props) => {
         <div className="hero-socials">
           {socials.map((social, index) => (
             <a key={index} href={social.url}>
-              <img src={`/socials/${social.icon}`} alt="" />
+              <img src={`/socials/${social.icon}`} alt="wtf" />
             </a>
           ))}
         </div>
