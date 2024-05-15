@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Heading from "./Heading";
 import socials from "../content/socials";
 import Typewriter from "typewriter-effect";
+import resume from '../resume.pdf'
 
 const Hero = (props) => {
   return (
@@ -69,6 +70,15 @@ const Hero = (props) => {
               <img src={`/socials/${social.icon}`} alt="wtf" />
             </a>
           ))}
+        </div>
+        <div style={{
+          border: 2,
+          borderColor: 'white',
+          padding: 14,
+          borderRadius: 5,
+          backgroundColor: 'black'
+        }}>
+            <a href={resume} download style={{color: 'red', fontWeight: 'bolder', fontSize: 20}}>Download CV</a>
         </div>
       </div>
     </div>
